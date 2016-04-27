@@ -1,0 +1,38 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button></ion-nav-back-button>
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="side-menu21"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" id="side-menu21" style="background-color:#FFFFFF;">
+        <ion-header-bar class="bar-stable">
+            <div class="title">Menu</div>
+        </ion-header-bar>
+        <ion-content padding="false" class="side-menu-left has-header">
+            <div>
+                <a style="display:block;" ui-sref="menu.profile" menu-close="">
+                    <img src="img/I9rbmgodSFabCgLRrzLx_blank-profile-picture-973460_640-400x400.png" width="50%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+                </a>
+            </div>
+            <div id="menu-markdown1" style="color:#000000;text-align:center;">
+                <p>Name</p>
+            </div>
+            <div class="spacer" style="width: 254.4px; height: 5.6px;"></div>
+            <ion-list>
+                <ion-item ui-sref="menu.home" menu-close="">Home</ion-item>
+                <ion-item ui-sref="menu.map" menu-close="">Map</ion-item>
+                <ion-item ui-sref="menu.traffic" menu-close="">Traffic</ion-item>
+                <ion-item ui-sref="menu.friends" menu-close="">Friends</ion-item>
+            </ion-list>
+            <div class="spacer" style="width: 254.4px; height: 18px;"></div>
+            <ion-list>
+                <ion-item ui-sref="menu.setting" menu-close="">Setting</ion-item>
+                <ion-item ui-sref="logIn" menu-close="">Logout</ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
